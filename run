@@ -7,8 +7,8 @@ function delayedPluginInstall {
 
     cd /home/developer/.IdeaIC2016.2/config/plugins/
 
-    echo 'Installing Go plugin'
-    wget https://plugins.jetbrains.com/files/5047/27278/Go-0.12.1724.zip -O go.zip -q && unzip -q go.zip && rm go.zip
+    #echo 'Installing Go plugin'
+    #wget https://plugins.jetbrains.com/files/5047/27278/Go-0.12.1724.zip -O go.zip -q && unzip -q go.zip && rm go.zip
 
     echo 'Installing Markdown support plugin'
     wget https://plugins.jetbrains.com/files/7793/25156/markdown-2016.1.20160405.zip -O markdown.zip -q && unzip -q markdown.zip && rm markdown.zip

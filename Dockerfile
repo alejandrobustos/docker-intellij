@@ -44,5 +44,4 @@ RUN sudo chown developer:developer -R /home/developer
 
 USER developer
 ENV HOME /home/developer
-WORKDIR /home/developer/go
 CMD /usr/local/bin/intellij
